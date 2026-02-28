@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Main container */
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 400px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Name input */
+#name {
+    width: 375px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/* === CONCERN BOX SECTION === */
+#concern {
+    width: 365px;
+    padding: 15px;
+    border: 2px solid #000080;
+    border-radius: 8px;
+    resize: none;
+    font-size: 14px;
+    background-color: #f9f9ff;
+    margin-bottom: 20px;
+}
+
+/* === PHOTO UPLOAD SECTION === */
+.upload-box {
+    display: block;
+    padding: 15px;
+    border: 2px dashed #000080;
+    border-radius: 8px;
+    background-color: #eef2ff;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.upload-box:hover {
+    background-color: #dde5ff;
+}
+
+.upload-box input {
+    display: none;
+}
+
+/* Preview image */
+.preview {
+    display: none;
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #000080;
+    color: yellow;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #001f5c;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Vertical gradient */
+    background: linear-gradient(to bottom, #000080, #FFD700);
+}
